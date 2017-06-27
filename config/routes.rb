@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :students do
+  resources :students, :teachers do
     get :subjects
   end
   resources :visitors, :teachers, :report_subjects
