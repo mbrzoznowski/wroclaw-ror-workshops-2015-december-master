@@ -13,8 +13,3 @@ development:
 test: &test
   <<: *connection
   database: workshops_test
-  
-production:
-  <<: *default
-  adapter: postgresql
-  database: db/production.sqlite3
