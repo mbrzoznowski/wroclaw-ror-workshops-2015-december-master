@@ -24,7 +24,12 @@ class StudentsController < ApplicationController
     redirect_to students_path, notice: I18n.t('shared.deleted', resource: 'Student')
   end
 
+  def student_list
+    @students = Student.all
+    render :student_list
+  end
+
   def student_params
-    params.require(:student).permit(:first_name, :last_name)
+    params.require(:student).permit(:first_name, :last_name, :birthday, :payment, :payment_date)
   end
 end

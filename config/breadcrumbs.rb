@@ -2,6 +2,11 @@ crumb :root do
   link 'RoR Workhops', root_path
 end
 
+crumb :payments do
+  link t('navbar.payments'), students_path
+end
+
+
 crumb :students do
   link t('navbar.students'), students_path
 end

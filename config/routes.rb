@@ -8,5 +8,6 @@ Rails.application.routes.draw do
     resources :subjects
   end
   get 'reports/subjects', to: 'reports#subjects'
+  get 'lists/students', to: 'students#student_list'
   root 'visitors#index'
 end

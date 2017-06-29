@@ -11,6 +11,8 @@
       %ul.nav.navbar-nav
         %li{ class: active?(students_path) }
           = link_to t('navbar.students'), students_path
+        %li{ class: active?(lists_students_path) }
+          = link_to t('navbar.payments'), lists_students_path
         %li{ class: active?(teachers_path) }
           = link_to t('navbar.teachers'), teachers_path
         %li.dropdown{ class: active?(reports_subjects_path) }
