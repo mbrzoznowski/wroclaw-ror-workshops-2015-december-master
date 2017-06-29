@@ -1,3 +1,5 @@
+https://travis-ci.org/mbrzoznowski/wroclaw-ror-workshops-2015-december-master.svg?branch=master
+
 RoR Workshops
 ================
 
