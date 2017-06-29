@@ -22,8 +22,8 @@ end
   Student.create!(
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
-    birthday: Faker::Date.birthday(18, 65)
-    payment: true
+    birthday: Faker::Date.birthday(18, 65),
+    payment: true,
     payment_date: Faker::Date.between(6.days.ago, Date.today)
   )
 end
@@ -32,7 +32,7 @@ end
   Student.create!(
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
-    birthday: Faker::Date.birthday(18, 65)
+    birthday: Faker::Date.birthday(18, 65),
     payment: false
   )
 end
