@@ -39,7 +39,7 @@ feature 'User edits student' do
     find("input[type='checkbox']").set(true)
     click_button 'Update Student'
 
-    visit reports_subjects_path
+    visit report_subjects_path
     expect(page).to have_content 'Jan Abacki'
   end
 end
