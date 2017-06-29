@@ -1,4 +1,4 @@
-https://travis-ci.org/mbrzoznowski/wroclaw-ror-workshops-2015-december-master.svg?branch=master
+[![Build Status](https://travis-ci.org/mbrzoznowski/wroclaw-ror-workshops-2015-december-master.svg?branch=master)](https://travis-ci.org/mbrzoznowski/wroclaw-ror-workshops-2015-december-master/builds)
 
 RoR Workshops
 ================
